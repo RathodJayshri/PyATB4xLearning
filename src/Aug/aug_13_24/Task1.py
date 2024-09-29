@@ -11,3 +11,8 @@ print(f"The mul of  num1 and num2 is: {(num1*num2)}")
 print(f"The div is: {(num1/num2)}")
 print(f"The sub is: {(num1-num2)}")
 print(f"The sum is:{(num1+num2)}")
+
+number1 = int(input("enter number1 here:"))
+number2 = int(input("enter number2 here:"))
+
+print(f"the max number from number1 and number2 is:{max(number1, number2)}")

@@ -39,4 +39,9 @@ for i in range(1,11):
     print(f"{table} * i = {table*i}")
 
 
+table = int(input("enter table number which you want:"))
+
+for i in range(1,11):
+    print(f"{table} * i = {table * i}")
+
 

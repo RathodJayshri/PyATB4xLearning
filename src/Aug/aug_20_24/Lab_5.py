@@ -1,3 +1,5 @@
+'''
+
 # Conditions and Loops
 
 # Write a program to take a user age and let him know if he can go the club.
@@ -8,7 +10,7 @@
 # o/p -> String -> user if he can go or not.
 
 
-# 2. Rough loigc
+# 2. Rough logic
 # age  > 21 -> print can go
 # age < 21 -> print can't go
 
@@ -176,3 +178,14 @@ elif score >= 100:
     print("You are  Superman!!")
 else:
     print("You grade is ", "F")
+'''
+# age  > 21 -> print can go
+# age < 21 -> print can't go
+
+
+age = int(input("enter age here:"))
+
+if age >= 21:
+    print(" can go ")
+else:
+    print("can't go")
