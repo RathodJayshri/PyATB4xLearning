@@ -77,7 +77,7 @@ else:
 # elif condition 3:
 #     print("do 4")
 # else:
-#     print(" do 4")
+#     print(" do 4")=
 
 
 num1 = int(input("Enter the num1\n"))  # 5 , # 10
@@ -160,8 +160,9 @@ else:
 # 2 ->  O/p -> str -> A or B....
 
 score = int(input("Enter your score\n"))
-# score >=90 and scroe <=100 -> "A"
-# score >=80 and scroe <=89 -> "B"
+# score >=90 and score <=100 -> "A"
+# score >=80 and score
+# <=89 -> "B"
 
 if 90 <= score <= 100:  # Simplified Chaining Format -> 90 <= score <= 100
     print("You grade is ", "A")

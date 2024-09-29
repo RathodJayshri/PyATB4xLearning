@@ -18,9 +18,25 @@ print(f"{table}*9={table*9}")
 print(f"{table}*10={table*10}")
 """
 
+table = 5
+for i in range(1,11):
+    # print(f"{table} * i = {table*i}")
+    print(f"{table * i}", end=',')
 
-num1 = int(input("Enter the num1 : "))
-num2 = int(input("Enter the num2 : "))
 
-print(num1+num2)
+
+
+
+# num1 = int(input("Enter the num1 : "))
+# num2 = int(input("Enter the num2 : "))
+#
+# print(num1+num2)
+
+
+
+table = 7
+for i in range(1,11):
+    print(f"{table} * i = {table*i}")
+
+
 
