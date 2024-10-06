@@ -14,7 +14,7 @@ def sum_even_odd(list1):
             sum_odd += i
     return sum_even, sum_odd
 
-even_sum, odd_sum = sum_even_odd(list1)
+even_sum,odd_sum = sum_even_odd(list1)
 print("Sum of even numbers:", even_sum)
 print("Sum of odd numbers:", odd_sum)
 

@@ -16,3 +16,11 @@ number1 = int(input("enter number1 here:"))
 number2 = int(input("enter number2 here:"))
 
 print(f"the max number from number1 and number2 is:{max(number1, number2)}")
+
+No1 = 22
+No2 = 11
+
+if No1 > No2:
+    print("No1 is greater")
+else:
+    print("No2 is greater")

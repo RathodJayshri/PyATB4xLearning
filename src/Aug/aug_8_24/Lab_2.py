@@ -53,8 +53,16 @@ for index, value in enumerate(X2):
 # iterable and need both the index and the value of each element.
 
 
+# add 3 in even numbers
 
+X = [1, 2, 3, 4, 5, 6, 7]
+result = []
 
+for i in X:
+    if i % 2 == 0:
+        result.append(i + 3)
+
+print(result)
 
 
 
